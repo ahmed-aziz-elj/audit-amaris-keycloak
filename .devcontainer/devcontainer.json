@@ -1,6 +1,6 @@
 {
   "name": "React + Keycloak",
-  "dockerComposeFile": "docker-compose.yml",
+  "dockerComposeFile": [".devcontainer/docker-compose.yml"],
   "service": "audit-amaris",
   "workspaceFolder": "/workspaces/audit-amaris-keycloak",
   "forwardPorts": [3000, 8080],
