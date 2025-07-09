@@ -15,7 +15,7 @@ services:
         - "--spi-theme-cache-themes=false"
         - "--spi-theme-cache-templates=false"
       volumes:
-        - ./keywind/theme/keywind/:/opt/keycloak/themes/keywind
+        - ./keycloak-audit/keywind/theme/keywind/:/opt/keycloak/themes/keywind
 
   react-app:
     build:
