@@ -1,0 +1,14 @@
+{
+    "name": "React + Keycloak",
+    "dockerComposeFile": ["../docker-compose.yml"],
+    "service": "react-app",
+    "workspaceFolder": "/app",
+    "forwardPorts": [3000, 8080],
+    "postCreateCommand": "echo 'Ready to go!'",
+    "customizations": {
+      "vscode": {
+        "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"]
+      }
+    }
+}
+  

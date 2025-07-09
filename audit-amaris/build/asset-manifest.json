@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/audit-amaris/static/css/main.234e89e1.css",
+    "main.js": "/audit-amaris/static/js/main.bf907d1b.js",
+    "static/js/453.7ac18d2d.chunk.js": "/audit-amaris/static/js/453.7ac18d2d.chunk.js",
+    "static/media/image-bouygues.png": "/audit-amaris/static/media/image-bouygues.541245b7a1f8dc93dee0.png",
+    "static/media/image-amaris.png": "/audit-amaris/static/media/image-amaris.67a841e950015233ea66.png",
+    "static/media/lock.png": "/audit-amaris/static/media/lock.0daa98408ce15c859fae.png",
+    "index.html": "/audit-amaris/index.html",
+    "main.234e89e1.css.map": "/audit-amaris/static/css/main.234e89e1.css.map",
+    "main.bf907d1b.js.map": "/audit-amaris/static/js/main.bf907d1b.js.map",
+    "453.7ac18d2d.chunk.js.map": "/audit-amaris/static/js/453.7ac18d2d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.234e89e1.css",
+    "static/js/main.bf907d1b.js"
+  ]
+}
