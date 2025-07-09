@@ -1,7 +1,7 @@
 {
     "name": "React + Keycloak",
     "dockerComposeFile": ["../docker-compose.yml"],
-    "service": "react-app",
+    "service": "audit-amaris",
     "workspaceFolder": "/app",
     "forwardPorts": [3000, 8080],
     "postCreateCommand": "echo 'Ready to go!'",
