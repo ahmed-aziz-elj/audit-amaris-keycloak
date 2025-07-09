@@ -17,16 +17,14 @@ services:
       volumes:
         - ./keycloak-audit/keywind/theme/keywind/:/opt/keycloak/themes/keywind
 
-  react-app:
+  audit-amaris:
     build:
-      context: ./react-app
-    container_name: react-app
+      context: ../audit-amaris
+      dockerfile: Dockerfile
     ports:
       - "3000:3000"
-    working_dir: /app
     volumes:
-      - ./react-app:/app
-    command: bash -c "npm install && npm start"
+      - ../audit-amaris:/app
 
 volumes:
   keycloak_data:
