@@ -1,8 +1,13 @@
 {
-  "name": "React + Keycloak",
-  "dockerComposeFile": [".devcontainer/docker-compose.yml"],
-  "service": "audit-amaris",
-  "workspaceFolder": "/workspaces/audit-amaris-keycloak",
-  "forwardPorts": [3000, 8080],
-  "postCreateCommand": "docker compose up -d"
+    "name": "React + Keycloak",
+    "dockerComposeFile": ["../docker-compose.yml"],
+    "service": "audit-amaris",
+    "workspaceFolder": "/workspaces/audit-amaris-keycloak",
+    "forwardPorts": [3000, 8080],
+    "postCreateCommand": "docker-compose up -d",
+    "customizations": {
+      "vscode": {
+        "extensions": ["esbenp.prettier-vscode"]
+      }
+    }
 }
