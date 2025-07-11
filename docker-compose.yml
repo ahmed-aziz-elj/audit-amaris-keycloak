@@ -9,6 +9,8 @@ services:
       KEYCLOAK_ADMIN_PASSWORD: admin
       KC_HOSTNAME: $CODESPACE_NAME-8080.githubpreview.dev
       KC_THEME: keywind
+      KC_PROXY: edge
+      KC_HTTP_ENABLED: "true"
     command:
       - "start-dev"
       - "--import-realm"
