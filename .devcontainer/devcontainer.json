@@ -9,5 +9,8 @@
       "vscode": {
         "extensions": ["esbenp.prettier-vscode"]
       }
-    }
+    },
+    "features": {
+    "docker-in-docker": "latest"  // Adds Docker CLI and daemon
+  }
 }
