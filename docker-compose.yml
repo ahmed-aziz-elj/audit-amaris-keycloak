@@ -18,7 +18,7 @@ services:
       - "--spi-theme-cache-themes=false"
       - "--spi-theme-cache-templates=false"
     volumes:
-      - ../keycloak-audit/keywind/theme/keywind/:/opt/keycloak/themes/keywind
+      - /keycloak-audit/keywind/theme/keywind/:/opt/keycloak/themes/keywind
 
   audit-amaris:
     image: node:22
